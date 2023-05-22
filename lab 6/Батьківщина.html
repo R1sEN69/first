@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.menu{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: 400px;
+  background: #222;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.menu__wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70px;
+  overflow: hidden;
+  color: #fff;
+  transition: height .5s;
+  text-align: center;
+}
+
+.menu:hover .menu__wrap{
+  height: 50%;
+}
+</style>
+<body>
+  <div class="menu"><img src="2.1.jpg" ></div>
+    <div class="menu">
+        <div class="menu__wrap">
+          <h1 class="menu__heading">озеро Синевир</h1>
+          <p class="menu__description">Закарпаття</p>
+        </div>
+      </div>
+      <p></p>
+ <div class="menu"><img src="2.2.jpg" ></div>
+    <div class="menu">
+          <div class="menu__wrap">
+            <h1 class="menu__heading">Кам’янець-Подільська фортеця </h1>
+            <p class="menu__description">Хмельницька область України</p>
+          </div>
+        </div>
+<p></p>
+  <div class="menu"><img src="2.3.jpg" ></div>
+    <div class="menu">
+        <div class="menu__wrap">
+          <h1 class="menu__heading">Замок Любарта </h1>
+          <p class="menu__description">Люцьк</p>
+        </div>
+      </div> 
+      <p Align="right"><a href="Lab6.2.html">На головну сторінку</a></p>         
+</body>
+</html>
