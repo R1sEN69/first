@@ -1,0 +1,16 @@
+body {
+    background-color: #1cb12d;
+    font-family: Arial, sans-serif;
+    color: hsl(0, 0%, 9%);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+    text-align: justify;  
+  }
+  div{
+    flex: auto;
+  }
+  p{
+    text-indent : 5%;
+  }
