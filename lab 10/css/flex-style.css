@@ -1,0 +1,104 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color:rgb(0, 0, 0);
+}
+
+.header .nav {
+    display: flex;
+    align-items: center;
+}
+
+
+.header .nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.header .nav-list .nav-item {
+    margin: 5px;
+    padding: 5px;
+}
+
+.header .nav-list .nav-item a {
+    text-decoration: none;
+    color: rgb(255, 245, 245);
+}
+
+.main {
+    flex: 1;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ts {
+color: white;
+}
+
+.right-container {
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .flex-r {
+        display: flex;
+    }
+}
+
+@media (max-width: 576px) {
+    .c {
+        width: 100%;
+        height: 200px;
+    }
+
+    .r {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (min-width: 768px) {
+    .flex-y {
+        display: flex;
+    }
+}
+
+@media (max-width: 768px){
+    .y {
+        width: 100%;
+        height: 200px;
+    }   
+}
+
+@media (max-width: 992px){
+    .gr{
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+    .flex-gr{
+        display: flex;
+    }
+}
